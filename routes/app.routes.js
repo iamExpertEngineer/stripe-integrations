@@ -3,8 +3,8 @@ const express = require('express')
 const router = express.Router()
 
 // Controller
-const customerController = require('../controllers/customer.controller')
-const cardController = require('../controllers/card.controller')
+const customerController = require('../controllers/customer.controller.ts')
+const cardController = require('../controllers/card.controller.ts')
 
 // Customer Controller Routes
 router.post('/customer/create', customerController.create)
