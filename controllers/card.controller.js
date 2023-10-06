@@ -10,7 +10,6 @@ const errorMessages = require('../utils/error.messages')
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const add = async (req, res) => {
     const bodyData = req.body
@@ -79,7 +78,6 @@ const add = async (req, res) => {
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const list = async (req, res) => {
     try {
@@ -153,7 +151,6 @@ const list = async (req, res) => {
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
  * @author Unknown
- * @modified_by Rohit Kumar
  */
 const cardDelete = async (req, res) => {
     const bodyData = req.body
@@ -288,7 +285,6 @@ const cardDelete = async (req, res) => {
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const setDefaultPayment = async (req, res) => {
     const body = req.body
@@ -348,7 +344,6 @@ const setDefaultPayment = async (req, res) => {
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const paymentMethodDetails = async (req, res) => {
     const body = req.query

@@ -53,7 +53,6 @@ async function retrievePaymentMethod (paymentMethodId) {
 
 /**
  * Detaches a PaymentMethod object from a Customer.
- * @author Rohit Kumar
  */
 async function deletePaymentMethod (cardId) {
     const paymentMethodId = cardId

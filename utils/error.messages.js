@@ -5,7 +5,6 @@ module.exports.INTERNAL_SERVER_ERROR = 'Internal Server Error'
 /**
  * @param {*} error(error & declined codes)
  * @returns {string} Declined errors based on stripe error code & declined code
- * @author Rohit Kumar
  */
 function getCustomStripeError (error) {
     let errorObject = {

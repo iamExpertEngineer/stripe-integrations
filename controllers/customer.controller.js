@@ -8,7 +8,6 @@ const stripeService = require('../service/stripe.service')
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const create = async (req, res) => {
     // Extract data from request body
@@ -93,7 +92,6 @@ const create = async (req, res) => {
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const retrieve = async (req, res) => {
     // Extract data from request body
@@ -147,7 +145,6 @@ const retrieve = async (req, res) => {
  *
  * @param {*} req HTTP request object
  * @param {*} res HTTP response object
- * @author Rohit Kumar
  */
 const update = async (req, res) => {
     // Extract data from request body
