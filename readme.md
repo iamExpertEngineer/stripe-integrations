@@ -1,9 +1,12 @@
-# Node-Stripe
-- This is a Stripe with Node APIs project, We can create a customer on stripe and attach, delete, retrieve, update the cards and customer to the customers. 
+# Stripe-Node-js Integrations
+The Stripe Node library provides convenient access to the Stripe API from applications written in server-side JavaScript.
 
-## Table of Contents
-- Quick start
-  - [Installation](#installation)
+For collecting customer and payment information in the browser, use Stripe.js.
+
+## Documentation
+See the [stripe-node](https://stripe.com/docs/api?lang=node) API docs for Node.js.
+
+See [video demonstrations](https://www.youtube.com/playlist?list=PLy1nL-pvL2M5xNIuNapwmABwEy2uifAlY) covering how to use the library.
 
 ## Installation
  ### Prerequisites
