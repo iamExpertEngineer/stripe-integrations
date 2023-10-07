@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const express = require('express')
 const cors = require('cors')
 const paginate = require('express-paginate')
-const indexRouter = require('./routes/app.routes')
+const indexRouter = require('./routes/app.routes.ts')
 const port = process.env.PORT || 4242
 
 // Initialize the express application

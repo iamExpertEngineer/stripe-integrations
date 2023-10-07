@@ -8,8 +8,8 @@
 const moment = require('moment')
 const Joi = require('joi')
 const joiToForms = require('joi-errors-for-forms').form
-const stripeService = require('../service/stripe.service')
-const errorMessages = require('../utils/error.messages')
+const stripeService = require('../service/stripe.service.ts')
+const errorMessages = require('../utils/error.messages.ts')
 
 /**
  * This function will add a payment card on stripe and attach with stripe customer

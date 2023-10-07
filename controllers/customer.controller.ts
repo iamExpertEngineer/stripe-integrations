@@ -9,7 +9,7 @@
 // Import necessary libraries and services
 const Joi = require('joi')
 const joiToForms = require('joi-errors-for-forms').form
-const stripeService = require('../service/stripe.service')
+const stripeService = require('../service/stripe.service.ts')
 
 /**
  * This function will create customer on stripe
