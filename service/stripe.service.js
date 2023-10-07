@@ -1,3 +1,13 @@
+/*
+ * This service provides comprehensive management of all Stripe payment gateway actions, including creating, getting
+ * and updating customers, as well as adding and deleting cards from a customer's account.
+ * With this service, you can easily integrate Stripe into your business processes, ensuring efficient
+ * and secure payment handling. Whether you need to obtain customer data, update payment information
+ * or list available cards, this service makes it simple and convenient.
+ * Say goodbye to the hassle of Stripe payment management and let this service handle it all for you.
+ */
+
+// IMPORT SECTION
 require('dotenv').config()
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 

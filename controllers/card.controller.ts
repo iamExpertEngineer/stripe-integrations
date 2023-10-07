@@ -1,3 +1,9 @@
+/*
+ * Hello readers, thank you for taking a moment to learn about this file.
+ * This file will guide you in setting up and managing card for users through Stripe payment gateway.
+ * You'll learn how to add, get, list, set default card for payment process and manage cards for a seamless payment experience. Stay tuned.
+*/
+
 // Import necessary libraries and services
 const moment = require('moment')
 const Joi = require('joi')

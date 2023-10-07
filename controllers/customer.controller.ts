@@ -1,3 +1,11 @@
+/*
+ * Hello readers, thank you for taking a moment to learn about this file.
+ * This file provides step-by-step instructions on creating and managing customers
+ * on the Stripe payment gateway using Node.js integration APIs.
+ * Readers can easily follow these guidelines to smoothly set up and
+ * maintain customer data using Stripe's secure payment platform.
+*/
+
 // Import necessary libraries and services
 const Joi = require('joi')
 const joiToForms = require('joi-errors-for-forms').form

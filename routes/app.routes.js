@@ -1,3 +1,12 @@
+/*
+ * The route.js file contains all the API routes for processing payments through Stripe.
+ * By consolidating these routes in one file, the code becomes more organized, easier to
+ * maintain, and facilitates future updates. These routes allow the application to handle
+ * various payment requests, such as creating a new payment method or processing a payment using a saved method.
+ * The use of Stripe's API also ensures that all transactions are secure, quick and reliable,
+ * making it an ideal payment processing system for businesses.
+*/
+
 // IMPORT SECTION
 const express = require('express')
 const router = express.Router()
